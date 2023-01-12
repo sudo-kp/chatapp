@@ -24,7 +24,7 @@ const Chat = (props) => {
     const [activeContact, setActiveContact] = useRecoilState(chatActiveContact);
     const [messages, setMessages] = useRecoilState(chatMessages);
     const navigate = useNavigate();
-    /*
+    
     useEffect(() => {
         if (localStorage.getItem("accessToken") === null) {
             navigate("/login");
@@ -230,16 +230,7 @@ const Chat = (props) => {
                 </div>
             </div>
         </div>
-    );*/
-
-    return (
-        <div>
-            <h1>
-                Fuck
-            </h1>
-        </div>
     );
-
 };
 
 export default Chat;
